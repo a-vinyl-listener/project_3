@@ -1,0 +1,99 @@
+.coach { 
+  margin: 133px 0 50px 0;
+  &__title {
+    color: $text-color-secondary;
+    font-family: $font-family-primary;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 160%;
+  }
+
+  .swiper {
+    position: relative;
+    min-height: 806px;
+    margin-left: 0px;
+    &-wrapper {
+      margin-top: 60px;
+    }
+    &__img {
+      max-width: 360px;
+      border-radius: 20px;
+      border: 1px dashed $color-secondary;
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+
+    &__name {
+      font-family: $font-family-primary;
+      color: $text-color-secondary;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 160%;
+      margin-top: 21px;
+    }
+
+    &__text {
+      color: $text-color-secondary;
+      font-family: $font-family-primary;
+      font-size: 18px;
+      font-weight: 400;
+      text-align: left;
+      margin-top: 12px;
+      margin-bottom: 0rem;
+    }
+
+    &__link {
+      display: block;
+      color: $text-color-primary;
+      font-family: $font-family-primary;
+      font-size: 18px;
+      font-weight: 400;
+      text-align: left;
+      line-height: 160%;
+      margin-top: 21px;
+    }
+  
+    &-button-prev {   
+      transform: translateX(1055px);
+      border-radius: 100%;
+      width: 33.33px;
+      height: 33.33px;   
+      background: $background-color-secondary;
+
+      &:after {       
+        color: $color-tertiary;
+        font-size: 15px;
+      }
+    }
+    &-button-next {
+      border-radius: 100%;
+      width: 33.33px;
+      height: 33.33px;   
+      background: $background-color-secondary;
+
+      &:after {       
+        color: $color-tertiary;
+        font-size: 15px;
+      }
+    }
+    &__button--arrow {
+      right: calc(12px);   
+      top: calc(100% - 15px);
+    }   
+    &-scrollbar {
+      bottom: 18px;
+      cursor: pointer;
+      max-width: 263px;
+      height: 4px;
+      transform: translateX(-10px);
+      border-radius: 40px;
+    }
+
+    a {
+      color: $text-color-primary;
+      text-decoration: none;
+    }
+  }
+}
+ 

@@ -1,0 +1,39 @@
+.header {
+  background:$background-color-secondary ;
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px 0 100px;
+  }
+  &__logo {
+    font-family: $font-family-primary;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  &__item {
+    display: flex;
+    padding-left: 31px;
+    margin-bottom: 0;
+    gap: 40px;
+    margin-top: 8px;
+  }
+  &__link {
+    color: $color-tertiary;
+    font-family: $font-family-primary;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+    text-align: center;
+  }
+  &__phone {
+    font-family: $font-family-primary;
+    font-weight: 600;
+    font-size: 30px;
+  }
+ 
+  a {
+    color: $text-color-tertiary;
+    text-decoration: none;
+  }
+}
+

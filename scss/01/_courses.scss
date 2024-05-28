@@ -1,0 +1,51 @@
+.courses {
+  background: $background-color-secondary ;
+  display: flex;
+  justify-content: center;
+  padding: 86px 0 0 169px;
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1327px;
+  }
+  &__inner{
+    margin-top: 182px;
+  }
+  &__title {
+    font-family: $font-family-primary;
+    font-weight: 600;
+    font-size: 70px;
+    color: $text-color-tertiary;
+    font-family: $font-family-primary;
+    text-align: left;
+    line-height: 160%;
+  }
+
+  &__text {
+    font-family: $font-family-primary;
+    font-weight: 400;
+    font-size: 20px;
+    color: $text-color-tertiary;
+    font-size: 20px;
+    margin-top: 23px;
+  }
+
+  &__img {
+    width: 59%;
+    height: 100%;
+  }
+}
+
+.btn {
+  &__red {
+    border-radius: 5px;
+    padding: 25px 54px;
+    background: $background-color-primary;
+    font-family: $font-family-primary;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: $text-color-tertiary;
+    margin-top: 36px;
+  }
+}

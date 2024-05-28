@@ -1,0 +1,33 @@
+.footer {
+  background:$background-color-secondary;
+  &__flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px 71px 100px;
+  }
+  &__title {
+    color: $text-color-tertiary;
+    font-family: $font-family-primary;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  &__text {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+    }
+  &__phone {
+    color: rgb(255, 255, 255);
+    font-family: $text-color-tertiary;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 129%;
+    
+  }
+  a{
+    color: $text-color-tertiary;
+    text-decoration: none;
+  }
+}

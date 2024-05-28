@@ -1,0 +1,647 @@
+@media (max-width: 320px) {
+  .header {
+    &__row {
+      padding: 0;
+    }
+
+    &__item {
+      display: none;
+    }
+
+    &__phone {
+      display: none;
+    }
+
+    &__logo {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 160%;
+      padding: 22px 0 0 10px;
+    }
+
+    &__hamburger {
+      padding-top: 15px;
+      margin-right: 25px;
+      display: block;
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+
+      &:hover span {
+        background: $color-tertiary;
+      }
+
+      span {
+        display: block;
+        height: 3px;
+        width: 40px;
+        background-color: #313b59;
+        margin-bottom: 8px;
+        transition: 0.5s all;
+        cursor: pointer;
+      }
+
+      &--active {
+        span {
+          margin-bottom: -2px;
+
+          &:nth-child(1) {
+            transform: translateY(3px) rotate(-45deg);
+          }
+
+          &:nth-child(2) {
+            display: none;
+          }
+
+          &:nth-child(3) {
+            transform: translateY(3px) rotate(45deg);
+          }
+        }
+      }
+    }
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+
+  .courses {
+    padding: 47px 24px 35px 24px;
+
+    &__wrap {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    &__inner {
+      margin-top: 0px;
+      text-align: center;
+    }
+
+    &__title {
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 160%;
+      text-align: center;
+      margin-top: 8px;
+    }
+
+    &__text {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 160%;
+      margin-top: 11px;
+      padding: 0px 12px;
+    }
+
+    .btn__red {
+      position: absolute;
+      width: 300px;
+      height: 60px;
+      left: -15px;
+      right: 10px;
+      top: 389px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 25px 54px 25px 54px;
+      font-weight: 400;
+      font-size: 16px;
+
+    }
+
+    &__img {
+      width: 103%;
+      height: 65%;
+    }
+
+  }
+
+  .institution {
+    margin: 60px 0;
+
+    &__wrap {
+      max-width: 297px;
+    }
+
+    &__wrapper {
+      display: grid;
+      grid-template-columns: repeat(1, 265px);
+      margin-top: 40px;
+      justify-content: center;
+      row-gap: 31px;
+    }
+
+    &__title {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 160%;
+      letter-spacing: 0%;
+
+    }
+
+    &__text {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 160%;
+
+
+    }
+
+    &__numbering {
+      font-size: 60px;
+      font-weight: 600;
+      line-height: 87px;
+      text-align: center;
+    }
+
+    &__slogan {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 160%;
+      text-align: center;
+      margin: 0;
+    }
+  }
+
+  .course {
+    position: relative;
+    padding: 39px 0;
+
+    &__title {
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 140%;
+      text-align: center;
+    }
+
+    &__subtitle {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 160%;
+    }
+
+    &__text {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 160%;
+
+    }
+
+    &__wrap {
+
+      display: grid;
+      grid-template-columns: repeat(1, 300px);
+      margin-top: 41px;
+      row-gap: 30px;
+    }
+
+    &__subtitle {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 160%;
+      text-align: center;
+    }
+
+    &__text {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 160%;
+      text-align: center;
+      margin-top: 11px;
+    }
+
+    .btn__white {
+      position: absolute;
+      top: 402px;
+      left: 44px;
+    }
+  }
+
+  .coach {
+    margin: 75px 0 0px 0;
+
+    &__title {
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 140%;
+      text-align: center;
+    }
+
+    .swiper {
+      min-height: 537px;
+    }
+
+    .swiper-wrapper {
+      margin-top: 41px;
+    }
+
+    .swiper__img {
+      max-width: 220px;
+    }
+
+    .swiper__name {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 160%;
+
+    }
+
+    .swiper__text {
+      width: 100%;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 160%;
+      margin-top: 9px;
+    }
+
+    .swiper__link {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 160%;
+    }
+
+    .swiper-button-prev {
+      display: none;
+    }
+
+    .swiper-button-next {
+      display: none;
+    }
+
+    .swiper-scrollbar {
+      max-width: 299px;
+    }
+
+    // .swiper-scrollbar-darg{
+    //  width: 146.2153px;
+    //}
+  }
+
+  .package {
+    margin: 44px 0 52px 0;
+
+    &__title {
+      max-width: 260px;
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 140%;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    &__wrap {
+      display: grid;
+      grid-template-columns: repeat(1, 300px);
+      // grid-auto-rows: 395px;
+      grid-template-rows: repeat(3, 395px);
+      row-gap: 38px;
+      margin-top: 53px;
+    }
+
+    &__inner {
+      padding: 13px 0;
+
+      &:hover {
+        background: $background-color-secondary;
+        border: 1px solid $color-secondary;
+        transform: scale(1, 1.06);
+        transition: all 0.5s ease-out;
+        color: $color-tertiary;
+      }
+    }
+
+    &__price {
+      margin-top: 38px;
+    }
+
+    &__subtitle {
+      margin-top: 21px;
+    }
+
+    &__text {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 160%;
+      text-align: center;
+      margin: 20px 0 0 0;
+    }
+
+    .btn__red--moved-bottom {
+      margin-top: 36px;
+      padding: 13px 72px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 160%;
+    }
+  }
+
+  .entry {
+    padding: 23px 10px 37px 10px;
+
+    &__inner {
+      flex-wrap: wrap;
+    }
+
+    &__title {
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 140%;
+      text-align: center;
+    }
+
+    &__text {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 160%;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    &__col {
+      grid-template-columns: 300px;
+      grid-template-rows: 65px;
+      margin-top: 12px;
+      min-height: 280px;
+    }
+
+    .btn-black {
+      margin-top: 5px;
+    }
+  }
+
+  .footer {
+    &__flex {
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 30px 55px 82px 55px;
+    }
+
+    &__title {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 160%;
+      text-align: left;
+    }
+
+    &__phone {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 160%;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    &__text {
+      position: absolute;
+      top: 145px;
+      left: 98px;
+      margin-bottom: 0;
+      font-size: 15px;
+    }
+
+    &__wrap {
+      margin-top: 15px;
+    }
+
+    a {
+      margin-top: 5px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .header{
+    &__row{
+      padding: 20px;
+    }
+    &__logo{
+      font-size: 25px;
+    }
+    &__item{
+      padding: 0;
+    }
+    &__link{
+      font-size: 16px;
+    }
+    &__phone{
+      font-size: 25px;
+    }
+  }
+  .institution {
+    &__wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 301px);
+      margin-top: 63px;
+      justify-content: space-around;
+    }
+  }   
+  .courses{
+    padding: 0 20px;
+    &__wrap{
+      margin-top: 20px;
+    }
+    &__inner {
+      margin-top: 138px;
+    }
+    &__title {
+    font-size: 35px;
+    }
+    &__img {
+      width: 57%;
+    }
+    .btn__red{
+      padding: 15px 35px;
+    }
+  }    
+  .institution{
+    &__wrap{
+      text-align: center;
+    }
+    &__title{
+      font-size: 25px;
+    }
+    &__text{
+      font-size: 25px;
+    }
+    &__numbering{
+      text-align: center;
+    }
+  }
+  .course{
+    position: relative;
+    &__title{
+      font-size: 40px;
+      text-align: center;
+    }
+    &__wrap{
+      display: grid;
+      grid-template-columns: repeat(2, 300px);
+      margin-top: 8px;
+      justify-content: space-evenly;
+      text-align: center;
+      row-gap: 20px;
+    }
+    .btn{
+      position: absolute;
+      top: 400px;
+      left: 450px;
+    }
+  }
+  .coach{
+    margin: 50px 0;
+    &__title{
+    text-align: center;
+    font-size: 30px;         
+  }
+ .swiper{
+  margin-left: 47px;}
+
+  .swiper-button-prev {
+  transform: translateX(664px);     
+  } 
+}
+}
+ 
+.coach .swiper-button-prev {
+  transform: translateX(620px);
+}
+.coach .swiper__img {
+  max-width: 300px;
+}
+  .package {
+    &__wrap{    
+      display: grid;
+      grid-template-columns: repeat(2, 300px);
+      justify-content: space-around;
+      row-gap:30px;
+      text-align: center;
+    }
+    &__text{     
+      font-size: 14px;
+    }    
+    .btn__red--moved-bottom {
+      margin-top: 46px;
+      padding: 18px 62px;
+    }       
+  }   
+  .entry {
+    &__inner{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  &__title{
+    text-align: center;
+  }
+}
+@media (max-width: 1024px) {
+  .header {
+    &__row {
+      padding: 30px 50px 0 50px;
+    }
+  }
+
+  .courses {
+    padding: 50px 50px 0 50px;
+    &__inner {
+      margin-top: 169px;
+    }
+    &__title {
+      font-size: 51px;
+    }
+   &__img {
+      width: 55%;
+    }
+  }
+  .institution {
+    &__wrap{
+    text-align: center;
+    }
+  }
+   &__wrapper {
+      grid-template-columns: repeat(2, 301px)
+    }
+  }
+       
+
+/*@media (min-width: 1024px) {
+  .header{
+    &__logo{
+      font-size: 21px;
+    }
+    &__phone{
+      font-size: 21px;
+    }
+  }
+  .courses{
+    max-width: 1000xp;
+    padding-top: 88px;
+    &__wrap{
+    justify-content: space-evenly;
+    padding-top: 30px;
+    
+    }
+    &__title{
+      font-size: 50px;
+      line-height: 100%;
+    }
+    &__sidebar {
+      margin-top: 78px;
+      }
+    &__text{
+      font-size: 16px;
+    }
+    &__img{
+      width: 35%;
+    }
+    }
+    .btn__red{
+      padding: 9px 16px;
+    }
+  }  */     
+
+/*@media (min-width: 1366px) {
+  .header{
+    
+    &__logo{
+      font-size: 21px;
+    }
+    &__phone{
+      font-size: 21px;
+    }
+  }
+  .courses{
+    
+    padding: 88px 0 0 0 ;
+    &__wrap{
+    justify-content: space-evenly;
+    padding-top: 30px;
+    }
+    &__inner{
+    margin-top: 80px;
+    }
+    &__title{
+      font-size: 60px;
+      line-height: 100%;
+    }
+    &__sidebar {
+      margin-top: 78px;
+      }
+    &__text{
+      font-size: 18px;
+    }
+    &__img{
+      width: 35%;
+    }
+    }
+    .btn__red{
+      padding: 9px 16px;
+    }
+  }  */
+@media (min-width: 1919px) {
+  
+} 

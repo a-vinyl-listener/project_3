@@ -1,0 +1,47 @@
+.course {
+  background: rgb(249, 249, 249);
+  padding: 88px 0;
+  &__title {
+    color: $color-secondary;
+    font-family: $font-family-primary;
+    font-size: 50px;
+    font-weight: 600;
+     
+  }
+  &__wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    column-gap: 38px;
+    margin-top: 8px;
+  }
+  &__subtitle {   
+    color: $color-secondary;  
+    font-family: $font-family-primary;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 160%;
+  }
+  &__text {
+    color: $color-secondary;
+    font-family: $font-family-primary;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    margin-top: 20px; 
+    margin-bottom: 0rem;
+  }
+ 
+}
+.btn {
+  display: flex;
+  justify-content: flex-end;
+    &__white {
+    align-items: center;
+    padding: 12px 11px 15px 20px;
+    color: $color-secondary;
+    font-family: $font-family-primary;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+  }
+}

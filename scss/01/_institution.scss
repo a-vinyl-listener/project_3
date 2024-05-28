@@ -1,0 +1,43 @@
+.institution {
+  display: flex;
+  margin: 120px 0 ; 
+  &__wrap {
+    max-width: 891px;
+   }
+  &__title {
+    font-family: $font-family-primary;  
+    font-weight: 600;
+    font-size: 30px;
+    color: $color-secondary;       
+  }
+  &__text {
+    font-family: $font-family-primary;
+    font-size: 30px;
+    font-weight: 400;   
+    color: $color-secondary;
+    line-height: 160%;
+    margin-left: 7px ;
+   
+  }
+  &__wrapper{
+    display: grid;
+		grid-template-columns: repeat(4, 301px);
+    margin-top: 63px;
+    
+  }
+  &__numbering {
+    font-family: $font-family-primary;
+    font-size: 70px;
+    font-weight: 600;
+    color :$color-primary;    
+  }
+  &__slogan {
+    font-family: $font-family-primary;
+    font-size: 18px;
+    font-weight: 400;
+    color: $color-secondary; 
+    margin-top: 6px;
+        
+  }
+}
+  
